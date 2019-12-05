@@ -33,7 +33,7 @@ public class UWCListarReprovacaoServiceSoapBinding
         java.lang.Object ProcessResult(UWCExtendedSoapSerializationEnvelope __envelope,java.lang.Object result) throws java.lang.Exception;
     }
 
-    String url="http://192.168.0.2:8080/CRUDReprovacaoWS/services/ListarReprovacaoPort";
+    String url="http://192.168.10.109:8080/CRUDReprovacaoWS/services/ListarReprovacaoPort";
 
     int timeOut=60000;
     public List< HeaderProperty> httpHeaders= new ArrayList< HeaderProperty>();

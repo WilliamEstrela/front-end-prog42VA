@@ -33,7 +33,7 @@ public class SACIncluirReprovacaoServiceSoapBinding
         java.lang.Object ProcessResult(SACExtendedSoapSerializationEnvelope __envelope,java.lang.Object result) throws java.lang.Exception;
     }
 
-    String url="http://192.168.0.2:8080/CRUDReprovacaoWS/services/IncluirReprovacaoPort";
+    String url="http://192.168.10.109:8080/CRUDReprovacaoWS/services/IncluirReprovacaoPort";
 
     int timeOut=60000;
     public List< HeaderProperty> httpHeaders= new ArrayList< HeaderProperty>();
